@@ -27,3 +27,5 @@
 2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#175行#[[应用准备退出]]
 2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#177行#[[停止定时任务调度]]
 2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown.func1#168行#[[已退出]]
+2019-06-14/18:11:21 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/18:11:22 [CRT] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#124行#定时任务初始化#获取任务列表错误: dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.

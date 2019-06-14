@@ -52,7 +52,7 @@ git_latest_tag() {
     local COMMIT_ID=""
     local TAG_NAME=""
     COMMIT_ID=`git rev-list --tags --max-count=1`
-    TAG_NAME=`git describe --tags --away  "${COMMIT_ID}"`
+    TAG_NAME=`git describe --tags "${COMMIT_ID}"`
  
     echo ${TAG_NAME}
 }
