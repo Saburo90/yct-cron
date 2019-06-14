@@ -5,15 +5,15 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Saburo90/yct-cron/internal/models"
+	"github.com/Saburo90/yct-cron/internal/modules/logger"
+	"github.com/Saburo90/yct-cron/internal/modules/rpc/client"
+	"github.com/Saburo90/yct-cron/internal/modules/rpc/grpcpool"
+	"github.com/Saburo90/yct-cron/internal/modules/rpc/proto"
+	"github.com/Saburo90/yct-cron/internal/modules/utils"
+	"github.com/Saburo90/yct-cron/internal/routers/base"
+	"github.com/Saburo90/yct-cron/internal/service"
 	"github.com/go-macaron/binding"
-	"github.com/ouqiang/gocron/internal/models"
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/rpc/client"
-	"github.com/ouqiang/gocron/internal/modules/rpc/grpcpool"
-	"github.com/ouqiang/gocron/internal/modules/rpc/proto"
-	"github.com/ouqiang/gocron/internal/modules/utils"
-	"github.com/ouqiang/gocron/internal/routers/base"
-	"github.com/ouqiang/gocron/internal/service"
 	macaron "gopkg.in/macaron.v1"
 )
 

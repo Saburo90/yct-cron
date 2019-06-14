@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/ouqiang/gocron/internal/modules/utils"
+	"github.com/Saburo90/yct-cron/internal/modules/utils"
 )
 
 const PasswordSaltLength = 6

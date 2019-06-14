@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/json"
 
-	"github.com/ouqiang/gocron/internal/modules/logger"
+	"github.com/Saburo90/yct-cron/internal/modules/logger"
 )
 
 // json 格式输出

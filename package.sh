@@ -21,6 +21,9 @@ MAIN_FILE=""
 VERSION=''
 # 最新git commit id
 GIT_COMMIT_ID=''
+
+GOHOSTOS='linux'
+GOHOSTARCH='amd64'
  
 # 外部输入的系统
 INPUT_OS=()
@@ -49,7 +52,7 @@ git_latest_tag() {
     local COMMIT_ID=""
     local TAG_NAME=""
     COMMIT_ID=`git rev-list --tags --max-count=1`
-    TAG_NAME=`git describe --tags "${COMMIT_ID}"`
+    TAG_NAME=`git describe --tags --away  "${COMMIT_ID}"`
  
     echo ${TAG_NAME}
 }
@@ -178,8 +181,8 @@ run() {
 }
 
 package_gocron() {
-    BINARY_NAME='gocron'
-    MAIN_FILE="./cmd/gocron/gocron.go"
+    BINARY_NAME='yct-cron'
+    MAIN_FILE="./cmd/gocron/yct-cron.go"
     INCLUDE_FILE=()
 
 
@@ -187,8 +190,8 @@ package_gocron() {
 }
 
 package_gocron_node() {
-    BINARY_NAME='gocron-node'
-    MAIN_FILE="./cmd/node/node.go"
+    BINARY_NAME='yct-cron-node'
+    MAIN_FILE="./cmd/node/yct-cron-node.go"
     INCLUDE_FILE=()
 
     run

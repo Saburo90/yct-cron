@@ -1,30 +1,30 @@
 GO111MODULE=on
 
 .PHONY: build
-build: gocron node
+build: yct-cron node
 
 .PHONY: build-race
 build-race: enable-race build
 
 .PHONY: run
 run: build kill
-	./bin/gocron-node &
-	./bin/gocron web -e dev
+	./bin/yct-cron-node &
+	./bin/yct-cron web -e dev
 
 .PHONY: run-race
 run-race: enable-race run
 
 .PHONY: kill
 kill:
-	-killall gocron-node
+	-killall yct-cron-node
 
-.PHONY: gocron
-gocron:
-	go build $(RACE) -o bin/gocron ./cmd/gocron
+.PHONY: yct-cron
+yct-cron:
+	go build $(RACE) -o bin/yct-cron ./cmd/gocron
 
 .PHONY: node
 node:
-	go build $(RACE) -o bin/gocron-node ./cmd/node
+	go build $(RACE) -o bin/yct-cron-node ./cmd/node
 
 .PHONY: test
 test:
@@ -68,5 +68,5 @@ statik:
 
 .PHONY: clean
 clean:
-	rm bin/gocron
-	rm bin/gocron-node
+	rm bin/yct-cron
+	rm bin/yct-cron-node

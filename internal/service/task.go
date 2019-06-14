@@ -10,14 +10,14 @@ import (
 
 	"github.com/ouqiang/goutil"
 
+	"github.com/Saburo90/yct-cron/internal/models"
+	"github.com/Saburo90/yct-cron/internal/modules/app"
+	"github.com/Saburo90/yct-cron/internal/modules/httpclient"
+	"github.com/Saburo90/yct-cron/internal/modules/logger"
+	"github.com/Saburo90/yct-cron/internal/modules/notify"
+	rpcClient "github.com/Saburo90/yct-cron/internal/modules/rpc/client"
+	pb "github.com/Saburo90/yct-cron/internal/modules/rpc/proto"
 	"github.com/jakecoffman/cron"
-	"github.com/ouqiang/gocron/internal/models"
-	"github.com/ouqiang/gocron/internal/modules/app"
-	"github.com/ouqiang/gocron/internal/modules/httpclient"
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/notify"
-	rpcClient "github.com/ouqiang/gocron/internal/modules/rpc/client"
-	pb "github.com/ouqiang/gocron/internal/modules/rpc/proto"
 )
 
 var (

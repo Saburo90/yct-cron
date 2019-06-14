@@ -3,8 +3,8 @@ package setting
 import (
 	"errors"
 
-	"github.com/ouqiang/gocron/internal/modules/logger"
-	"github.com/ouqiang/gocron/internal/modules/utils"
+	"github.com/Saburo90/yct-cron/internal/modules/logger"
+	"github.com/Saburo90/yct-cron/internal/modules/utils"
 	"gopkg.in/ini.v1"
 )
 

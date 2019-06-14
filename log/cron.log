@@ -1,0 +1,29 @@
+2019-06-14/13:41:00 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/13:41:00 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/13:50:09 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/13:50:09 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/14:05:22 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/14:05:22 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/14:06:46 [ERR] #D:/project/crontab/yct-cron/internal/routers/task/task.go#github.com/Saburo90/yct-cron/internal/routers/task.Detail#82行#编辑任务#获取任务详情失败#任务ID-0
+2019-06-14/14:07:34 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.catchSignal#155行#[[收到信号 --  interrupt]]
+2019-06-14/14:08:09 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/14:08:09 [CRT] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#124行#定时任务初始化#获取任务列表错误: Error 1146: Table 'yct_cron.yct_task' doesn't exist
+2019-06-14/14:08:34 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/14:08:34 [CRT] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#124行#定时任务初始化#获取任务列表错误: Error 1146: Table 'yct_cron.yct_task' doesn't exist
+2019-06-14/14:11:45 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.catchSignal#155行#[[收到信号 --  interrupt]]
+2019-06-14/14:11:45 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown.func1#168行#[[已退出]]
+2019-06-14/15:12:41 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.catchSignal#155行#[[收到信号 --  interrupt]]
+2019-06-14/15:12:41 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown.func1#168行#[[已退出]]
+2019-06-14/15:13:15 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/15:13:15 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/16:20:01 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/16:20:01 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/16:20:08 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.catchSignal#155行#[[收到信号 --  interrupt]]
+2019-06-14/16:20:08 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#175行#[[应用准备退出]]
+2019-06-14/16:20:08 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#177行#[[停止定时任务调度]]
+2019-06-14/16:20:24 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#115行#[[开始初始化定时任务]]
+2019-06-14/16:20:24 [INF] #D:/project/crontab/yct-cron/internal/service/task.go#github.com/Saburo90/yct-cron/internal/service.Task.Initialize#135行#定时任务初始化完成, 共0个定时任务添加到调度器
+2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.catchSignal#155行#[[收到信号 --  interrupt]]
+2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#175行#[[应用准备退出]]
+2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown#177行#[[停止定时任务调度]]
+2019-06-14/16:20:49 [INF] #D:/project/crontab/yct-cron/cmd/gocron/gocron.go#main.shutdown.func1#168行#[[已退出]]

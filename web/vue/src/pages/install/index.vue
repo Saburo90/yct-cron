@@ -2,7 +2,7 @@
   <el-container>
     <el-main>
       <el-form ref="form" :model="form" :rules="formRules" label-width="100px" style="width: 700px;">
-        <h3>数据库配置</h3>
+        <h3 class="el-icon-coin conf-source" >数据库配置</h3>
         <el-form-item label="数据库选择" prop="db_type">
           <el-select v-model.trim="form.db_type" @change="update_port">
             <el-option
@@ -49,7 +49,7 @@
             </el-form-item>
           </el-col>
         </el-row>
-        <h3>管理员账号配置</h3>
+        <h3 class="el-icon-user conf-admin">管理员账号配置</h3>
         <el-row>
           <el-col :span="12">
             <el-form-item label="账号" prop="admin_username">
@@ -174,3 +174,9 @@ export default {
   }
 }
 </script>
+<style lang="stylus" scoped>
+  .conf-source
+    font-size: 25px
+  .conf-admin
+    font-size: 25px
+</style>
